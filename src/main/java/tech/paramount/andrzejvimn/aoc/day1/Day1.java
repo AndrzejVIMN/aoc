@@ -19,17 +19,6 @@ public class Day1 {
         System.out.println("Sum of correct calibration values: " + totalCorrectCalibrationValues);
     }
 
-    public static void main(String[] args) {
-        var d = new Day1();
-        System.out.println(d.getCorrectCalibrationValue("two1nine"));
-        System.out.println(d.getCorrectCalibrationValue("eightwothree"));
-        System.out.println(d.getCorrectCalibrationValue("abcone2threexyz"));
-        System.out.println(d.getCorrectCalibrationValue("xtwone3four"));
-        System.out.println(d.getCorrectCalibrationValue("4nineeightseven2"));
-        System.out.println(d.getCorrectCalibrationValue("zoneight234"));
-        System.out.println(d.getCorrectCalibrationValue("7pqrstsixteen"));
-    }
-
     private int getCorrectCalibrationValue(String line) {
         var digits = new ArrayList<String>();
         String pattern = "(?=(\\d|one|two|three|four|five|six|seven|eight|nine))";
