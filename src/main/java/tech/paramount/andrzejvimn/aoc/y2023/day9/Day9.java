@@ -1,4 +1,4 @@
-package tech.paramount.andrzejvimn.aoc.day9;
+package tech.paramount.andrzejvimn.aoc.y2023.day9;
 
 import tech.paramount.andrzejvimn.aoc.InputReader;
 
@@ -9,7 +9,7 @@ import java.util.List;
 public class Day9 {
 
     public void solve() {
-        var lines = InputReader.readLines("day9.txt");
+        var lines = InputReader.readLines("2023/day9.txt");
 
         var values = lines.stream().map(this::parseValues).toList();
 

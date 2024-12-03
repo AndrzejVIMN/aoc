@@ -1,4 +1,4 @@
-package tech.paramount.andrzejvimn.aoc.day1;
+package tech.paramount.andrzejvimn.aoc.y2023.day1;
 
 import tech.paramount.andrzejvimn.aoc.InputReader;
 
@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class Day1 {
 
     public void solve() {
-        var lines = InputReader.readLines("day1.txt");
+        var lines = InputReader.readLines("2023/day1.txt");
 
         var totalCalibrationValues = lines.stream().map(this::getCalibrationValue).mapToInt(Integer::intValue).sum();
 

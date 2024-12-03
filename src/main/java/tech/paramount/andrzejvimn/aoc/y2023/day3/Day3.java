@@ -1,4 +1,4 @@
-package tech.paramount.andrzejvimn.aoc.day3;
+package tech.paramount.andrzejvimn.aoc.y2023.day3;
 
 import tech.paramount.andrzejvimn.aoc.InputReader;
 
@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class Day3 {
 
     public void solve() {
-        var lines = InputReader.readLines("day3.txt");
+        var lines = InputReader.readLines("2023/day3.txt");
 
         var sum = 0;
         var pattern = Pattern.compile("\\d+");

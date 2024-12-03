@@ -1,4 +1,4 @@
-package tech.paramount.andrzejvimn.aoc.day7;
+package tech.paramount.andrzejvimn.aoc.y2023.day7;
 
 import tech.paramount.andrzejvimn.aoc.InputReader;
 
@@ -7,7 +7,7 @@ import java.util.List;
 public class Day7 {
 
     public void solve() {
-        var lines = InputReader.readLines("day7.txt");
+        var lines = InputReader.readLines("2023/day7.txt");
 
         List<Hand> hands = lines.stream().map(this::parseHand).toList();
 

@@ -1,4 +1,4 @@
-package tech.paramount.andrzejvimn.aoc.day8;
+package tech.paramount.andrzejvimn.aoc.y2023.day8;
 
 import tech.paramount.andrzejvimn.aoc.InputReader;
 
@@ -12,7 +12,7 @@ public class Day8 {
     private static final Pattern NODE_PATTERN = Pattern.compile("(\\w+) = \\((\\w+), (\\w+)\\)");
 
     public void solve() {
-        var lines = InputReader.readLines("day8.txt");
+        var lines = InputReader.readLines("2023/day8.txt");
 
         var nodes = lines.stream().skip(2).map(this::parseNode).collect(Collectors.toMap(Node::label, Function.identity()));
         var instructions = lines.get(0);

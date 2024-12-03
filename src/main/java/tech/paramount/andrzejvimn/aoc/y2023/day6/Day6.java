@@ -1,4 +1,4 @@
-package tech.paramount.andrzejvimn.aoc.day6;
+package tech.paramount.andrzejvimn.aoc.y2023.day6;
 
 import tech.paramount.andrzejvimn.aoc.InputReader;
 
@@ -10,7 +10,7 @@ import java.util.stream.LongStream;
 public class Day6 {
 
     public void solve() {
-        var lines = InputReader.readLines("day6.txt");
+        var lines = InputReader.readLines("2023/day6.txt");
 
         var races = parseRaces(lines);
 

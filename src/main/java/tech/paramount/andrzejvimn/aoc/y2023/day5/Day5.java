@@ -1,4 +1,4 @@
-package tech.paramount.andrzejvimn.aoc.day5;
+package tech.paramount.andrzejvimn.aoc.y2023.day5;
 
 import tech.paramount.andrzejvimn.aoc.InputReader;
 
@@ -7,14 +7,13 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.regex.Pattern;
-import java.util.stream.LongStream;
 
 public class Day5 {
 
     private static final Pattern RANGE_MAP_PATTERN = Pattern.compile("(\\d+) (\\d+) (\\d+)");
 
     public void solve() {
-        var lines = InputReader.readLines("day5.txt");
+        var lines = InputReader.readLines("2023/day5.txt");
 
         var seeds = parseSeeds(lines.get(0));
 

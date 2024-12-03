@@ -1,4 +1,4 @@
-package tech.paramount.andrzejvimn.aoc.day2;
+package tech.paramount.andrzejvimn.aoc.y2023.day2;
 
 import tech.paramount.andrzejvimn.aoc.InputReader;
 
@@ -9,7 +9,7 @@ import java.util.List;
 public class Day2 {
 
     public void solve() {
-        var lines = InputReader.readLines("day2.txt");
+        var lines = InputReader.readLines("2023/day2.txt");
 
         var allowedRed = 12;
         var allowedGreen = 13;

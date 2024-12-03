@@ -1,15 +1,15 @@
-package tech.paramount.andrzejvimn;
+package tech.paramount.andrzejvimn.aoc.y2023;
 
-import tech.paramount.andrzejvimn.aoc.day1.Day1;
-import tech.paramount.andrzejvimn.aoc.day2.Day2;
-import tech.paramount.andrzejvimn.aoc.day3.Day3;
-import tech.paramount.andrzejvimn.aoc.day4.Day4;
-import tech.paramount.andrzejvimn.aoc.day5.Day5;
-import tech.paramount.andrzejvimn.aoc.day6.Day6;
-import tech.paramount.andrzejvimn.aoc.day7.Day7;
-import tech.paramount.andrzejvimn.aoc.day7.Day7_2;
-import tech.paramount.andrzejvimn.aoc.day8.Day8;
-import tech.paramount.andrzejvimn.aoc.day9.Day9;
+import tech.paramount.andrzejvimn.aoc.y2023.day1.Day1;
+import tech.paramount.andrzejvimn.aoc.y2023.day2.Day2;
+import tech.paramount.andrzejvimn.aoc.y2023.day3.Day3;
+import tech.paramount.andrzejvimn.aoc.y2023.day4.Day4;
+import tech.paramount.andrzejvimn.aoc.y2023.day5.Day5;
+import tech.paramount.andrzejvimn.aoc.y2023.day6.Day6;
+import tech.paramount.andrzejvimn.aoc.y2023.day7.Day7;
+import tech.paramount.andrzejvimn.aoc.y2023.day7.Day7_2;
+import tech.paramount.andrzejvimn.aoc.y2023.day8.Day8;
+import tech.paramount.andrzejvimn.aoc.y2023.day9.Day9;
 
 public class Main {
 

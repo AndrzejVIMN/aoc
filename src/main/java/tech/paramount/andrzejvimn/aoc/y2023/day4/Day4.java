@@ -1,4 +1,4 @@
-package tech.paramount.andrzejvimn.aoc.day4;
+package tech.paramount.andrzejvimn.aoc.y2023.day4;
 
 import tech.paramount.andrzejvimn.aoc.InputReader;
 
@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 public class Day4 {
 
     public void solve() {
-        var lines = InputReader.readLines("day4.txt");
+        var lines = InputReader.readLines("2023/day4.txt");
 
         var sumOfPoints = lines.stream().map(this::parseCard).mapToInt(this::getPoints).sum();
 
