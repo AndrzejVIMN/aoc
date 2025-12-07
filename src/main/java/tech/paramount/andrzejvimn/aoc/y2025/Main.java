@@ -5,6 +5,7 @@ import tech.paramount.andrzejvimn.aoc.y2025.day2.Day2;
 import tech.paramount.andrzejvimn.aoc.y2025.day3.Day3;
 import tech.paramount.andrzejvimn.aoc.y2025.day4.Day4;
 import tech.paramount.andrzejvimn.aoc.y2025.day5.Day5;
+import tech.paramount.andrzejvimn.aoc.y2025.day6.Day6;
 
 public class Main {
 
@@ -24,5 +25,8 @@ public class Main {
 
         System.out.println("Day 5:");
         new Day5().solve();
+
+        System.out.println("Day 6:");
+        new Day6().solve();
     }
 }
